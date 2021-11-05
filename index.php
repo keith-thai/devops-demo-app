@@ -75,7 +75,7 @@ $conn->close(); ?>
                 </h3>
                 <h3>Environment: <span class="label label-info"><?php echo $config['environment'] ?></span></h3>
                 <h3>KTT - Application Version: <span class="label label-info">1.7</span></h3>
-                <h3>Database Scripts Version: <?php
+                <h3>KTT - Database Scripts Version: <?php
                         if ($dbVersion) {echo '<span class="label label-info">'. $dbVersion;}
                         else {echo '<span class="label label-danger">Failed to load version data';}
                         ?></span></h3>
